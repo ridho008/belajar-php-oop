@@ -4,6 +4,7 @@ require_once 'data/helper-namespace.php';
 
 // alias
 // use Data\One\Conflict as Conflict1;
+// use Data\Two\Conflict as Conflict2;
 // use function Helper\helpMe;
 // use const Helper\APPLICATION;
 
