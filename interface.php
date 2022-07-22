@@ -1,5 +1,6 @@
 <?php 
 
+// isi interface semuanya adalah inisialisasi method yang digunakan oleh class implements
 interface Car {
    function drive(): void;
 
