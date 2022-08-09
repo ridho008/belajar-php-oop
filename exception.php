@@ -18,6 +18,7 @@ try {
    // menangkan 2 jenis class exception
 } catch(ValidationException | Exception $exception) {
    echo "Validation Error : {$exception->getMessage()}";
+   // Debug Exception = menampilkan detail errornya dimana, dibaris berapa dll
    var_dump($exception->getTrace());
    echo $exception->getTraceAsString();
 } finally {
